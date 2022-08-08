@@ -12,7 +12,7 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
+          <div class="carousel-item active" style="background-image: url(template/promote/assets/img/slide/slide-1.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown"><span>Welcome to</span>Baan Suan Hed Shop</h2>
@@ -26,7 +26,7 @@
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg);">
+          <div class="carousel-item" style="background-image: url(template/promote/assets/img/slide/slide-2.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
@@ -40,7 +40,7 @@
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
+          <div class="carousel-item" style="background-image: url(template/promote/assets/img/slide/slide-3.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
@@ -75,7 +75,7 @@
 
         <div class="row">
 
-          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("assets/img/about.jpg");'>
+          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("template/promote/assets/img/about.jpg");'>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
           </div>
 
@@ -112,7 +112,7 @@
 
         <div class="row">
 
-          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("assets/img/about.jpg");'>
+          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("template/promote/assets/img/about.jpg");'>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
           </div>
 
@@ -297,7 +297,7 @@
                     <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-1.jpg" alt="" class="img-fluid">
+                    <img src="template/promote/assets/img/specials-1.jpg" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -309,7 +309,7 @@
                     <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-2.jpg" alt="" class="img-fluid">
+                    <img src="template/promote/assets/img/specials-2.jpg" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -321,7 +321,7 @@
                     <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-3.jpg" alt="" class="img-fluid">
+                    <img src="template/promote/assets/img/specials-3.jpg" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -333,7 +333,7 @@
                     <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-4.jpg" alt="" class="img-fluid">
+                    <img src="template/promote/assets/img/specials-4.jpg" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -345,7 +345,7 @@
                     <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-5.jpg" alt="" class="img-fluid">
+                    <img src="template/promote/assets/img/specials-5.jpg" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -370,7 +370,7 @@
             <div class="swiper-slide">
               <div class="row event-item">
                 <div class="col-lg-6">
-                  <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
+                  <img src="template/promote/assets/img/event-birthday.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Birthday Parties</h3>
@@ -397,7 +397,7 @@
             <div class="swiper-slide">
               <div class="row event-item">
                 <div class="col-lg-6">
-                  <img src="assets/img/event-private.jpg" class="img-fluid" alt="">
+                  <img src="template/promote/assets/img/event-private.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Private Parties</h3>
@@ -424,7 +424,7 @@
             <div class="swiper-slide">
               <div class="row event-item">
                 <div class="col-lg-6">
-                  <img src="assets/img/event-custom.jpg" class="img-fluid" alt="">
+                  <img src="template/promote/assets/img/event-custom.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Custom Parties</h3>
@@ -507,56 +507,56 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              <a href="template/promote/assets/img/gallery/gallery-1.jpg" class="gallery-lightbox">
+                <img src="template/promote/assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              <a href="template/promote/assets/img/gallery/gallery-2.jpg" class="gallery-lightbox">
+                <img src="template/promote/assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              <a href="template/promote/assets/img/gallery/gallery-3.jpg" class="gallery-lightbox">
+                <img src="template/promote/assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              <a href="template/promote/assets/img/gallery/gallery-4.jpg" class="gallery-lightbox">
+                <img src="template/promote/assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              <a href="template/promote/assets/img/gallery/gallery-5.jpg" class="gallery-lightbox">
+                <img src="template/promote/assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              <a href="template/promote/assets/img/gallery/gallery-6.jpg" class="gallery-lightbox">
+                <img src="template/promote/assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+              <a href="template/promote/assets/img/gallery/gallery-7.jpg" class="gallery-lightbox">
+                <img src="template/promote/assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
@@ -564,7 +564,7 @@
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox">
-                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+                <img src="template/promote/assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
@@ -587,7 +587,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member">
-              <div class="pic"><img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="template/promote/assets/img/chefs/chefs-1.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Walter White</h4>
                 <span>Master Chef</span>
@@ -603,7 +603,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member">
-              <div class="pic"><img src="assets/img/chefs/chefs-2.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="template/promote/assets/img/chefs/chefs-2.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Sarah Jhonson</h4>
                 <span>Patissier</span>
@@ -619,7 +619,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member">
-              <div class="pic"><img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="template/promote/assets/img/chefs/chefs-3.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>William Anderson</h4>
                 <span>Cook</span>
@@ -663,7 +663,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <img src="template/promote/assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                 <h3>Sara Wilsson</h3>
                 <h4>Designer</h4>
                 <div class="stars">
@@ -679,7 +679,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <img src="template/promote/assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
                 <div class="stars">
@@ -695,7 +695,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <img src="template/promote/assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
                 <div class="stars">
@@ -711,7 +711,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <img src="template/promote/assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                 <h3>John Larson</h3>
                 <h4>Entrepreneur</h4>
                 <div class="stars">
