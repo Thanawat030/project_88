@@ -22,7 +22,7 @@
           <li><a class="nav-link scrollto" href="#about">เกี่ยวกับ</a></li>
           <li class="dropdown"><a href="#"><span>วิธีปลูกเห็ด</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">เห็ดโคนน้อย</a></li>
+              <li><a href="{{ url('/mashroom')}}">เห็ดโคนน้อย</a></li>
                 <ul>
                   <li><a href="#">เห็ดโคนน้อย</a></li>
                   <li><a href="#">เห็ดขอนขาว</a></li>
