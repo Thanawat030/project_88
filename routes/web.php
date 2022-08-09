@@ -23,6 +23,7 @@ use Illuminate\Support\Facades\Route;
 //  Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::view('/', 'promotepage.home')->name('home');
+Route::view('/promotepage/mashroom.blade', 'promotepage.mashroom')->name('mashroom');
 Route::view('/admin/home', 'adminpage.adminhome')->name('adminhome');
 
 //end promote
@@ -30,7 +31,7 @@ Route::view('/admin/home', 'adminpage.adminhome')->name('adminhome');
 //start admin
 Auth::routes();
 
-Route::get('/admin/home',[app\Http\Controllers\HomeController::class, 'index'])->name('adminpage.adminhome');
+// Route::get('/admin/home',[app\Http\Controllers\HomeController::class, 'index'])->name('adminpage.adminhome');
 
 //End admin
 
