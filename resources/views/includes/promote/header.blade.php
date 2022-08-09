@@ -40,11 +40,22 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#specials">รายละเอียดสินค้า</a></li>
-          <li class="dropdown"><a href=""><span>เข้าสู่ระบบ</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">สมัครสมาชิก</a></li>
-          </li>
-        </ul>
+          <div class=""></div>
+          @if (Route::has('login'))
+                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                    @auth
+                    <li> <a class="nav-link scrollto"  href="{{ url('/admin/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">admin</a></li>
+                    @else
+                    <li> <a class="nav-link scrollto" href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a></li>
+
+                        @if (Route::has('register'))
+                            <<li> <a class="nav-link scrollto" href="{{ route('register') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">register</a></li>
+                        @endif
+                    @endauth
+                </div>
+            @endif
+
+
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 

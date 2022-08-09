@@ -24,14 +24,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'promotepage.home')->name('home');
 Route::view('/mashroom', 'promotepage.mashroom')->name('mashroom');
-Route::view('/admin/home', 'adminpage.adminhome')->name('adminhome');
 
 //end promote
 
 //start admin
 Auth::routes();
 
-// Route::get('/admin/home',[app\Http\Controllers\HomeController::class, 'index'])->name('adminpage.adminhome');
+Route::get('/admin/home',[App\Http\Controllers\HomeController::class, 'index'])->name('adminpage.adminhome');
 
 //End admin
 
