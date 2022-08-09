@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,3 +24,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'promotepage.home')->name('home');
 Route::view('/admin/home', 'adminpage.adminhome')->name('adminhome');
+
+//end promote
+
+//start admin
+Auth::routes();
+
+Route::get('/admin/home',[app\Http\Controllers\HomeController::class, 'index'])->name('adminpage.adminhome');
+
+//End admin
+
