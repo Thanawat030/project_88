@@ -40,7 +40,7 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#specials">รายละเอียดสินค้า</a></li>
-          <li class="dropdown"><a href="#"><span>เข้าสู่ระบบ</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href=""><span>เข้าสู่ระบบ</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">สมัครสมาชิก</a></li>
           </li>
