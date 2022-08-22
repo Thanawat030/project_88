@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
+
 
 class CustomerController extends Controller
 {
@@ -23,6 +25,7 @@ class CustomerController extends Controller
      */
     public function index()
     {
-        return view('adminpage/customer/admincustomer');
+        $customer = User::all();
+        return view('adminpage/customer/admincustomer' , compact('customer'));
     }
 }

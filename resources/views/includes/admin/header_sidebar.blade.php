@@ -220,7 +220,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ url('/admin/customer')}}">
+            <a class="nav-link" href="{{ url('/admin/address')}}">
               <i class="icon-contract menu-icon"></i>
               <span class="menu-title">ที่อยู่ลูกค้า</span>
             </a>

@@ -39,7 +39,7 @@ Route::get('/admin/product',[App\Http\Controllers\ProductController::class, 'ind
 Route::get('/admin/content',[App\Http\Controllers\ContentController::class, 'index'])->name('adminpage.content.admincontent'); 
 Route::get('/admin/delivery',[App\Http\Controllers\DeliveryController::class, 'index'])->name('adminpage.delivery.admindelivery');
 Route::get('/admin/customer',[App\Http\Controllers\CustomerController::class, 'index'])->name('adminpage.customer.admincustomer');
-Route::get('/admin/customer',[App\Http\Controllers\AddressController::class, 'index'])->name('adminpage.address.adminaddress');
+Route::get('/admin/address',[App\Http\Controllers\AddressController::class, 'index'])->name('adminpage.address.adminaddress');
 Route::get('/admin/type',[App\Http\Controllers\TypeController::class, 'index'])->name('adminpage.type.admintype');  
 
 //End admin

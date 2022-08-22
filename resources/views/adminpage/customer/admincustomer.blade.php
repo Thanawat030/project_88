@@ -6,7 +6,7 @@
             <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">รายการจัดส่ง</h4>
+                  <h4 class="card-title">ชื่อลูกค้า</h4>
                   <p class="card-description">
                   <td><label class="badge badge-danger">เพิ่ม</label></td>
                   </p>
@@ -15,12 +15,8 @@
                       <thead>
                         <tr>
                           <th>ID</th>
-                          <th>วันที่ส่ง</th>
-                          <th>Line</th>
-                          <th>ที่อยู่ลูกค้า</th>
-                          <th>จำนวนสินค้า</th>
-                          <th>รายละเอียดการจัดส่ง</th>
-                          <th>ราคา</th>
+                          <th>ชื่อ</th>
+                          <th>นามสกุล</th>
                           <th>แก้ไข</th>
                           <th>ลบ</th>
                         </tr>
@@ -28,10 +24,6 @@
                       <tbody>
                         <tr>
                           <td>01</td>
-                          <td>092-666-555</td>
-                          <td>*****</td>
-                          <td>*****</td>
-                          <td>*****</td>
                           <td>*****</td>
                           <td>*****</td>
                           <td><label class="badge badge-danger">แก้ไข</label></td>
