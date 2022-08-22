@@ -172,61 +172,61 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.php">
+            <a class="nav-link" href="{{url('/admin/home')}}">
               <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.php">
+            <a class="nav-link" href="{{url('/admin/admincontact')}}">
               <i class="icon-contract menu-icon"></i>
               <span class="menu-title">ติดต่อ</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="promotion.php">
+            <a class="nav-link" href="{{ url('/admin/adminpromotion')}}">
               <i class="icon-contract menu-icon"></i>
               <span class="menu-title">โปรโมชั่น</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="background.php">
+            <a class="nav-link" href="{{ url('/admin/adminblackground')}}">
               <i class="icon-contract menu-icon"></i>
               <span class="menu-title">พื้นหลัง</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="product.php">
+            <a class="nav-link" href="{{ url('/admin/product')}}">
               <i class="icon-contract menu-icon"></i>
               <span class="menu-title">สินค้า</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="content.php">
+            <a class="nav-link" href="{{ url('/admin/content')}}">
               <i class="icon-contract menu-icon"></i>
               <span class="menu-title">เนื้อหา</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="delivery list.php">
+            <a class="nav-link" href="{{ url('/admin/delivery')}}">
               <i class="icon-contract menu-icon"></i>
               <span class="menu-title">รายการจัดส่ง</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="customer name.php">
+            <a class="nav-link" href="{{ url('/admin/customer')}}">
               <i class="icon-contract menu-icon"></i>
               <span class="menu-title">ชื่อลูกค้า</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="customer address.php">
+            <a class="nav-link" href="{{ url('/admin/customer')}}">
               <i class="icon-contract menu-icon"></i>
               <span class="menu-title">ที่อยู่ลูกค้า</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Product type.php">
+            <a class="nav-link" href="{{ url('/admin/type')}}">
               <i class="icon-contract menu-icon"></i>
               <span class="menu-title">ประเภทสินค้า</span>
             </a>

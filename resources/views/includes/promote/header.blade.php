@@ -40,7 +40,7 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#specials">รายละเอียดสินค้า</a></li>
-          <div class=""></div>
+          <div class="dropdown"></div>
           @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
@@ -54,6 +54,7 @@
                     @endauth
                 </div>
             @endif
+            </div>
 
 
         <i class="bi bi-list mobile-nav-toggle"></i>
