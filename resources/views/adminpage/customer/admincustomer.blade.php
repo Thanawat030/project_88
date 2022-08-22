@@ -24,7 +24,7 @@
                       <tbody>
                         <tr>
                           <td>01</td>
-                          <td>*****</td>
+                          <td>*****  </td>
                           <td>*****</td>
                           <td><label class="badge badge-danger">แก้ไข</label></td>
                           <td><label class="badge badge-danger">ลบ</label></td>
