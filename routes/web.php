@@ -23,8 +23,9 @@ use Illuminate\Support\Facades\Route;
 //  Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::view('/', 'promotepage.home')->name('home');
+
 Route::view('/mashroom', 'promotepage.mashroom')->name('mashroom');
-Route::view('/mashroomkonnoy', 'promotepage.mashroomkonnoy')->name('mashroom');
+Route::view('/mashroomkonnoy', 'promotepage.mashroomkonnoy')->name('mashroomkonnoy');
 
 //end promote
 

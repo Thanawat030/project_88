@@ -21,8 +21,8 @@
 
 
    <footer class="row">
-       @include('includes.promote.footer')
-   </footer>
+       </footer>
+       @include('includes.promote.scripts')
 
 
 
