@@ -8,7 +8,10 @@
                 <div class="card-body">
                   <h4 class="card-title">ชื่อลูกค้า</h4>
                   <p class="card-description">
-                  <td><label class="badge badge-danger">เพิ่ม</label></td>
+                  <a class="btn btn-danger" href="{{ url('/admin/customer/add')}}">
+              <i class="icon-contract menu-icon"></i>
+              <span class="menu-title">เพิ่ม</span>
+            </a>
                   </p>
                   <div class="table-responsive">
                     <table class="table">

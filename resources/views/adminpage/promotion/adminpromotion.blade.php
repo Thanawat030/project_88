@@ -9,7 +9,10 @@
                 <div class="card-body">
                   <h4 class="card-title">โปรโมชั่น</h4>
                   <p class="card-description">
-                  <td><label class="badge badge-danger">เพิ่ม</label></td>
+                  <a class="btn btn-danger" href="{{ url('/admin/adminpromotion/add')}}">
+              <i class="icon-contract menu-icon"></i>
+              <span class="menu-title">เพิ่ม</span>
+            </a>
                   </p>
                   <div class="table-responsive">
                     <table class="table table-striped">
