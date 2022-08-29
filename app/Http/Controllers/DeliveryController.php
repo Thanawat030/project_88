@@ -25,4 +25,12 @@ class DeliveryController extends Controller
     {
         return view('adminpage/delivery/admindelivery');
     }
+    public function add()
+    {
+        return view('adminpage/delivery/add');
+    }
+    public function edit()
+    {
+        return view('adminpage/delivery/edit');
+    }
 }

@@ -25,4 +25,12 @@ class BlackgroundController extends Controller
     {
         return view('/adminpage/blackground/adminblackground');
     }
+    public function add()
+    {
+        return view('/adminpage/blackground/add');
+    }
+    public function edit()
+    {
+        return view('/adminpage/blackground/edit');
+    }
 }

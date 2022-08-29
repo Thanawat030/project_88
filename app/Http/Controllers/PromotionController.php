@@ -25,4 +25,12 @@ class PromotionController extends Controller
     {
         return view('/adminpage/promotion/adminpromotion');
     }
+    public function add()
+    {
+        return view('/adminpage/promotion/add');
+    }
+    public function edit()
+    {
+        return view('/adminpage/promotion/edit');
+    }
 }

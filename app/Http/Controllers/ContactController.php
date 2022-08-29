@@ -25,4 +25,12 @@ class ContactController extends Controller
     {
         return view('/adminpage/contact/admincontact');
     }
+    public function add()
+    {
+        return view('/adminpage/contact/add');
+    }
+    public function edit()
+    {
+        return view('/adminpage/contact/edit');
+    }
 }

@@ -25,4 +25,12 @@ class ProductController extends Controller
     {
         return view('/adminpage/product/adminproduct');
     }
+    public function add()
+    {
+        return view('/adminpage/product/add');
+    }
+    public function edit()
+    {
+        return view('/adminpage/product/edit');
+    }
 }

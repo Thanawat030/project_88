@@ -25,4 +25,12 @@ class ContentController extends Controller
     {
         return view('/adminpage/content/admincontent');
     }
+    public function add()
+    {
+        return view('/adminpage/content/add');
+    }
+    public function edit()
+    {
+        return view('/adminpage/content/edit');
+    }
 }

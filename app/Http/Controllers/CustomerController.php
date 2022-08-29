@@ -28,4 +28,12 @@ class CustomerController extends Controller
         $customer = User::all();
         return view('adminpage/customer/admincustomer' , compact('customer'));
     }
+    public function add()
+    {
+        return view('/adminpage/customer/add');
+    }
+    public function edit()
+    {
+        return view('/adminpage/customer/edit');
+    }
 }

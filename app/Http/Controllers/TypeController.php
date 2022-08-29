@@ -25,4 +25,12 @@ class TypeController extends Controller
     {
         return view('/adminpage/type/admintype');
     }
+    public function add()
+    {
+        return view('/adminpage/type/add');
+    }
+    public function edit()
+    {
+        return view('/adminpage/type/edit');
+    }
 }
