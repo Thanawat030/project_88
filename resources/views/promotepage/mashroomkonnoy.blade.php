@@ -14,7 +14,7 @@
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown"><span>เห็นขอนขาว</span></h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <p class="animate__animated animate__fadeInUp">เห็ดขอนขาว (ชื่อวิทยาศาสตร์ : Lentinus squarrosulas Mont. ,ชื่อสามัญ : เห็ดขอนขาว ,ชื่ออื่น : เห็ดมันมะม่วง เห็ดมัน) ลักษณะโดยทั่วไปของเห็ดขอนขาวและเห็ดขอนดำโดยทั่วไปแล้วลักษณะก้านจะชูออกมา และหมวกเห็ดจะมีรอยปุ๋มตรงกลางเล็กน้อย โดยที่ขนาดของหมวกเห็ดจะไม่ใหญ่มากและถ้าหากสีของเห็ดเป็นสีขาวทั้งต้นจะถูกเรียกว่าเห็ดขอนขาวแต่ถ้าที่หมวกเห็ดออกสีคล้ำๆหน่อยจะเรียกว่าเห็ดขอนดำ ส่วนมากจะขึ้นบนไม้เนื้อแข็งและก้อนเชื้อเห็ดที่ชาวไร่เพาะขึ้นมา</p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">เห็ดแต่ละชนิดในร้าน</a>
                   <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">ติดต่อสอบถาม</a>
@@ -27,8 +27,8 @@
           <div class="carousel-item" style="background-image: url(template/promote/assets/img/slide/slide-2.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown">เห็ดขอนขาว</h2>
+                <p class="animate__animated animate__fadeInUp">สำหรับเห็ดขอนขาวนั้นจะมีลักษณะเหมือนหรือคล้ายกับเห็ดนางรมมีสีขาว ซึ่งจะมีจุดที่สามารถสังเกตได้ถึงความแตกต่างระหว่างเห็ดทั้ง 2 ชนิดนี้ คือ เห็ดขอนขาวจะมีดอกที่เหนียว บาง และหอมกว่าเห็ดนางรม ส่วนบริเวณกึ่งกลางของเห็ดขอนขาวนั้นจะมีรอยบุ๋มเล็กน้อยบริเวณดอกเห็ดนี้ มองดูคล้ายๆ กับจานที่มีก้นลึก และบริเวณหมวกเห็ดก็จะมีขนขึ้นอยู่เป็นกระจุกปกคลุมอยู่ ส่วนก้านดอกที่เหนียวๆ แข็งๆ ของเห็ดชนิดนี้จะติดกับหมวกเห็ดเป็นเนื้อเดียวกัน แต่โดยมากมักจะไม่ค่อยอยู่ตรงกับกึ่งกลางของดอกเห็ดสักเท่าไหร่ และดอกเห็ดจะขึ้นแบบเรียงชิดติดกัน โดยเมื่อยังอ่อนเนื้อของเห็ดจะบางและเหนียว แต่หากเป็นดอกแก่จะมีเนื้อที่เหนียวและแข็ง</p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">เห็ดแต่ละชนิดในร้าน</a>
                   <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">ติดต่อสอบถาม</a>
@@ -41,8 +41,9 @@
           <div class="carousel-item" style="background-image: url(template/promote/assets/img/slide/slide-3.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown">เห็ดขอนขาว</h2>
+                <p class="animate__animated animate__fadeInUp">ช่วยทำให้ระบบขับถ่ายสามารถทำงานได้อย่างเป็นปกติ ไม่เป็นโรคริดสีดวงทวาร
+ช่วยแก้พิษไข้ และขับของเสียออกจากร่างกาย ช่วยป้องกันอาการเสื่อมสมรรถภาพทางเพศ ช่วยป้องกันโรคเบาหวาน ช่วยยืดอายุให้แก่ผู้ป่วยโรคเอดส์ หรือ HIV เป็นต้น</p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">เห็ดแต่ละชนิดในร้าน</a>
                   <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">ติดต่อสอบถาม</a>
@@ -69,7 +70,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Organize Your <span>Events</span> in our Restaurant</h2>
+          <h2>ราคาของ <span>เห็ดขอนขาว</span> ในร้านบ้านสวนเห็ด</h2>
         </div>
 
         <div class="events-slider swiper">
@@ -81,49 +82,20 @@
                   <img src="template/promote/assets/img/event-birthday.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Birthday Parties</h3>
+                  <h3>เชื้อเห็ดขอนขาวราคาส่ง</h3>
                   <div class="price">
-                    <p><span>$189</span></p>
+                    <p><span>7฿</span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                  เชื้อเห็ดขอนขาวราคาส่งคุณภาพดี เหมาะกับการเพาะพันธุ์ขายหรือใช้เองภายในครัวเรือน
                   </p>
                   <ul>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circle"></i> ปลอดภัยไร้สารพิษ</li>
+                    <li><i class="bi bi-check-circle"></i> เชื้อเห็ดแข็งแรง</li>
+                    <li><i class="bi bi-check-circle"></i> พันธุ์สวย ราคาดี</li>
                   </ul>
                   <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="template/promote/assets/img/event-private.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Private Parties</h3>
-                  <div class="price">
-                    <p><span>$290</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
+                  หากสนใจสามารถสั่งซื้อได้กับแอดมินหรือช่องทางสั่งซื้อออนไลน์
                   </p>
                 </div>
               </div>
@@ -135,22 +107,20 @@
                   <img src="template/promote/assets/img/event-custom.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Custom Parties</h3>
+                  <h3>โปรโมชั่นสำหรับเห็ดขอนขาว</h3>
                   <div class="price">
-                    <p><span>$99</span></p>
+                    <p><span>ซื้อเชื้อเห็ดขอนขาวราคาส่ง ครบ 300฿ แถมฟรีอีก 80฿ </span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                   สำหรับลูกค้าที่ซื้อเชื้อเห็ดขอนขาวครบในราคาส่ง 300฿ แถมฟรีเชื้อเห็ดขอนขาวอีก 80฿
                   </p>
                   <ul>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circle"></i> ปลอดภัย ไร้สารพิษ</li>
+                    <li><i class="bi bi-check-circle"></i> โปรโมชั่นนี้ไม่สามารถใช้ร่วมกับเชื้อเห็ดโคนน้อยได้</li>
+                    <li><i class="bi bi-check-circle"></i> ระยะเวลาโปรโมชันตั้งแต่ 1 ธ.ค. - 31 ธ.ค. 65</li>
                   </ul>
                   <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
+                  หากสนใจสามารถสั่งซื้อได้กับแอดมินหรือช่องทางสั่งซื้อออนไลน์
                   </p>
                 </div>
               </div>

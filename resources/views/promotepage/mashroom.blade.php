@@ -13,8 +13,9 @@
           <div class="carousel-item active" style="background-image: url(template/promote/assets/img/slide/slide-1.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown"><span>เห็นโคนน้อย</span></h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown"><span>เห็ดโคนน้อย</span></h2>
+                <p class="animate__animated animate__fadeInUp">   เห็ดโคนน้อย  จัดเป็นราชั้นสูง แต่เป็นคนละชนิดกับเห็ดโคนธรรมชาติหรือเห็ดปลวก มีชื่อเรียกแตกต่างกันไปเนื่องจากมีการกระจายพันธุ์ทั่วทุก ภาคของประเทศไทย มีชื่อเรียกตามวัสดุเพาะ เช่น เห็ดถั่ว เห็ดถั่วเหลืองหรือ เห็ดถั่วเน่า เห็ดโคนน้อย เห็ดโคนบ้าน เห็ดโคนขาว(ภาคเหนือ) เห็ดคราม เห็ดปลวกน้อย (ภาคตะวันออกเฉียงเหนือ)เห็ดโคนเพาะ เห็ดโคนน้อย เห็ดหมึก(ภาคกลาง) 
+        เห็ดโคนน้อยเป็นเห็ดที่ขึ้นลักษณะคล้ายเห็ดโคน เมื่อดอกเห็ดเจริญเต็มที่จะคล้ายร่มพับ ปลายแหลมมน ผิวมีสีน้ำตาลอ่อน ไปจนกระทั่งขาวตรงปลายหมวกดอก มีขนาดตั้งแต่ 0.5-1.5 เซนติเมตร ขึ้นอยู่กับสายพันธุ์ ความแข็งแรงของดอกเห็ดและสภาพแวดล้อม เมื่อดอกเห็ดแก่ หมวกดอกจะบาง สีคล้ำ หมวกดอกจะกางออก จนกระทั่งแก่เต็มที่หมวกดอกจะบางมาก สร้างสปอร์สีเทาเยิ้ม จนกระทั่งเปลี่ยนเป็นสีดำและเน่าเละไปในที่สุด  </p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">เห็ดแต่ละชนิดในร้าน</a>
                   <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">ติดต่อสอบถาม</a>
@@ -27,8 +28,8 @@
           <div class="carousel-item" style="background-image: url(template/promote/assets/img/slide/slide-2.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown">เห็ดโคนน้อย</h2>
+                <p class="animate__animated animate__fadeInUp">  เห็ดโคนน้อยเป็นเห็ดที่ขึ้นง่าย มีคุณค่าทางอาหารสูง แล้วยังพบว่ามีสรรพคุณทางสมุนไพร ช่วยในการย่อยอาหารและลดเสมหะ ถ้าตำให้ละเอียดใช้พอกภายนอกจะช่วยบรรเทาอาการปวดต่างๆ ได้ มีรายงานวิจัยที่แสดงว่าเห็ดนี้สามารถยับยั้งเซลล์มะเร็ง sarcoma 180 และ เซลล์มะเร็ง Ehrlich carcinoma ได้สูง 90 และ100 เปอร์เซ็นต์ ตามลำดับและยังพบว่ามีสารออกฤทธิ์ต้านเชื้อราได้อีกด้วย                                                                   เห็ดโคนน้อยที่เพาะกันทั่วไปที่มีการคัดเลือกสายพันธุ์ที่แน่นอนแล้วจะไม่มี สารพิษ เนื่องจากความนิยมบริโภคเห็ดโคนของประชาชนทั่วไปมีสูง เพราะเป็นเห็ดที่มีรสชาติอร่อย อุดมด้วยโปรตีนและคุณค่าทางอาหารสูง และมีราคาค่อนข้างสูง แต่ในปัจจุบันยังไม่สามารถเพาะเลี้ยงได้ เพราะเกิดขึ้นเองตามธรรมชาติ โดยพบว่ามีความสัมพันธ์กับปลวก และจะพบขึ้นในช่วงปลายฤดูฝน ประมาณกันยายน ถึงตุลาคม    </p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">เห็ดแต่ละชนิดในร้าน</a>
                   <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">ติดต่อสอบถาม</a>
@@ -41,8 +42,8 @@
           <div class="carousel-item" style="background-image: url(template/promote/assets/img/slide/slide-3.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown">เห็ดโคนน้อย</h2>
+                <p class="animate__animated animate__fadeInUp">   การดูแลรักษาการเพาะเห็ดทุกชนิดจะมีปัญหาเรื่องไร ควรใช้สารไล่แมลงที่สกัดจากพืชเช่นสารสกัดจากสะเดา ตะไคร้หอม หรือใช้ต้นสาบแร้งสาบกาแขวนในโรงเรือน ไม่ควรใช้สารเคมีฉีดพ่นเพราะทำให้เห็ดฝ่อ ไม่ออกดอกและเป็นอันตรายต่อผู้บริโภค หลังเพาะเห็ดหมด 1 รุ่น ควรทำความสะอาดโรงเรือน โดยการโรยปูนขาวที่พื้นและรมควันเพื่อไล่แมลงศัตรูเห็ด        </p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">เห็ดแต่ละชนิดในร้าน</a>
                   <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">ติดต่อสอบถาม</a>
@@ -69,7 +70,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Organize Your <span>Events</span> in our Restaurant</h2>
+          <h2>ราคาของ <span>เห็ดโคนน้อย</span> ในร้านบ้านสวนเห็ด</h2>
         </div>
 
         <div class="events-slider swiper">
@@ -81,49 +82,20 @@
                   <img src="template/promote/assets/img/event-birthday.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Birthday Parties</h3>
+                  <h3>เห็ดโคนน้อยราคาส่ง</h3>
                   <div class="price">
-                    <p><span>$189</span></p>
+                    <p><span>4฿</span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    เชื้อเห็ดโคนน้อยราคาส่งคุณภาพดี เหมาะกับการเพาะพันธุ์ขายหรือใช้เองภายในครัวเรือน
                   </p>
                   <ul>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circle"></i> ปลอดภัยไร้สารพิษ</li>
+                    <li><i class="bi bi-check-circle"></i> เชื้อเห็ดแข็งแรง</li>
+                    <li><i class="bi bi-check-circle"></i> พันธุ์สวย ราคาดี</li>
                   </ul>
                   <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="template/promote/assets/img/event-private.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Private Parties</h3>
-                  <div class="price">
-                    <p><span>$290</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
+                  หากสนใจสามารถสั่งซื้อได้กับแอดมินหรือช่องทางสั่งซื้อออนไลน์
                   </p>
                 </div>
               </div>
@@ -135,22 +107,20 @@
                   <img src="template/promote/assets/img/event-custom.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Custom Parties</h3>
+                  <h3>โปรโมชั่นสำหรับเชื้อเห็ดโคนน้อย</h3>
                   <div class="price">
-                    <p><span>$99</span></p>
+                    <p><span>ซื้อครบ 200฿ แถมฟรีเชื้อเห็ดขอนขาวในราคา 20฿</span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    โปโมชั่นเอาใจคนชอบเห็ดขอนขาวและโคนน้อยในราคาที่คุ้มค่า หากลูกค้าซื้อเชื้อเห็ดโคนน้อยในราคาส่งครบ 200฿ แถมฟรี เชื้อเห็ดขอนขาวในราคาส่ง 20฿
                   </p>
                   <ul>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circle"></i> ปลอดภัยไร้สารพิษ</li>
+                    <li><i class="bi bi-check-circle"></i> โปรโมชั่นนี้สามารถใช้ร่วมกับโปรโมชั่นอื่นได้</li>
+                    <li><i class="bi bi-check-circle"></i> ระยะเวลาโปรโมชันตั้งแต่ 19 ธ.ค. - 19 ม.ค. 66</li>
                   </ul>
                   <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
+                  หากสนใจสามารถสั่งซื้อได้กับแอดมินหรือช่องทางสั่งซื้อออนไลน์
                   </p>
                 </div>
               </div>

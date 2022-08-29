@@ -14,7 +14,10 @@
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown"><span>เห็ดขอนดำ</span></h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <p class="animate__animated animate__fadeInUp">เห็ดขอนดำ 
+   หรือ เห็ดกระด้าง การเพาะเห็ดขอนดำในถุงพลาสติก การเพาะเห็ดขอนดำในถุงพลาสติกมีวิธีการ
+   ไม่แตกต่างไปจากการเพาะเห็ดในพลาสติกอื่นๆเกษตรกรที่อยู่ในเขตภาคเหนือ และภาคอีสานหรือ
+   ภาคอื่นๆสามารถเพาะเห็ดชนิดนี้ได้เนื่องจากเห็ดชอบสภาพอากาศร้อนชื้น สามารถเพาะนอกฤดูกาลได้</p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">เห็ดแต่ละชนิดในร้าน</a>
                   <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">ติดต่อสอบถาม</a>
@@ -27,8 +30,9 @@
           <div class="carousel-item" style="background-image: url(template/promote/assets/img/slide/slide-2.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown">เห็ดขอนดำ</h2>
+                <p class="animate__animated animate__fadeInUp">เห็ดชนิดนี้ดอกอ่อนจะนิ่ม เมื่อแก่จะเหนียวและแข็ง จึงสามารถเก็บรักษาไว้รับประทานได้นานข้ามปี เวลาจะนำมาปรุงอาหารก็นำไปแช่น้ำให้คืนสภาพเหมือนเห็ดหูหนู เป็นเห็ดที่มีรสหวานกว่าเห็ดชนิดอื่น ๆ ในตระกูลเดียวกัน ดอกอ่อนนำไปแกงซุปหรือลาบให้ความรู้สึก ในการรับประทานคล้ายเนื้อสัตว์ คือก รุบเหนียว ลื่นลิ้น จึงเป็นที่นิยมรับประทานของคนในภาคเหนือ และภาคตะวันออกเฉียงเหนือ ดังนั้นจึงเป็นพื้นที่ ๆ เป็นแหล่งผลิตด้วยราคาของเห็ดกระด้างค่อนข้างสูงกว่าเห็ดพื้นเมืองชนิดอื่น ๆ
+</p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">เห็ดแต่ละชนิดในร้าน</a>
                   <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">ติดต่อสอบถาม</a>
@@ -41,8 +45,8 @@
           <div class="carousel-item" style="background-image: url(template/promote/assets/img/slide/slide-3.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown">เห็ดขอนดำ</h2>
+                <p class="animate__animated animate__fadeInUp">มีเกษตรกรที่ชำนาญการเพาะเห็ดลมในภาคอีสาน นิยมกระตุ้น ให้เห็ดออกดอกสม่ำเสมอโดยปิดโรงเรือนให้ร้อนในช่วงเท ียงถึงบ่าย 3 โมงเย็น โดย อุณหภูมิในโรงเรือนอยู่ระหว่าง 35-37 องศาเซลเซียส แต่ไม่ควรเกิน 40 องศาเซลเซียส เพราะเส้นใยอาจตายได้ หากอุณหภูมิขึ้นสูงมาก ก็จะระบายความร้อนโดยการรดน้ำด้วย สปริงเกอร์ ส่วนในเวลากลางคนจะเปิดโรงเปิดดอก ให้ได้รับความเย็นและอากาศ ถ่ายเทได้เต็มที่ จะช่วยให้ผลผลิตออกสม่ำเสมอได้ ซึ่งเป็นเทคนิคที่ผู้สนใจเห็ดลม ควรฝึกปฏิบัติและสังเกตเทคนิคให้ดี จึงจะประสบผลสำเร็จในการเพาะ</p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">เห็ดแต่ละชนิดในร้าน</a>
                   <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">ติดต่อสอบถาม</a>
@@ -69,7 +73,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Organize Your <span>Events</span> in our Restaurant</h2>
+          <h2>ราคาของ <span>เห็ดขอนดำ</span> ในร้านบ้านสวนเห็ด</h2>
         </div>
 
         <div class="events-slider swiper">
@@ -81,49 +85,20 @@
                   <img src="template/promote/assets/img/event-birthday.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Birthday Parties</h3>
+                  <h3>เชื้อเห็ดขอนดำราคาส่ง</h3>
                   <div class="price">
-                    <p><span>$189</span></p>
+                    <p><span>7฿</span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    เชื้อเห็ดขอนดำราคาส่งคุณภาพดี เหมาะกับการเพาะพันธุ์ขายหรือใช้เองภายในครัวเรือน
                   </p>
                   <ul>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circle"></i> ปลอดภัยไร้สารพิษ</li>
+                    <li><i class="bi bi-check-circle"></i> เชื้อเห็ดแข็งแรง</li>
+                    <li><i class="bi bi-check-circle"></i> ราคาดี พันธุ์สวย</li>
                   </ul>
                   <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="template/promote/assets/img/event-private.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Private Parties</h3>
-                  <div class="price">
-                    <p><span>$290</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
+                   หากสนใจสามารถสั่งซื้อได้กับแอดมินหรือช่องทางสั่งซื้อออนไลน์
                   </p>
                 </div>
               </div>
@@ -135,22 +110,20 @@
                   <img src="template/promote/assets/img/event-custom.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Custom Parties</h3>
+                  <h3>โปรโมชั่นสำหรับเห็ดขอนดำ</h3>
                   <div class="price">
-                    <p><span>$99</span></p>
+                    <p><span>สั่งซื้อเห็ดขอนดำราคา 150฿ ขึ้นไป แถมฟรีอีก 50฿</span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    โปรโมชั่นสำหรับลูกค้าที่ต้องการตุนเชื้อเห็ดขอนดำเพื่อนำไปเพาะพันธุ์ สั่งซื้อในราคาส่ง 150฿ ขึ้นไป แถมฟรีอีก 50฿
                   </p>
                   <ul>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circle"></i> คุ้มค่า คุ้มราคา</li>
+                    <li><i class="bi bi-check-circle"></i> โปรโมชั่นนี้ใช้ได้กับเชื้อเห็ดทุกชนิดในร้าน ยกเว้น เชื้อเห็ดโคนน้อย</li>
+                    <li><i class="bi bi-check-circle"></i> โปรโมชั่นตั้งแต่วันที่ 1 พ.ย. - 30 พ.ย. 65</li>
                   </ul>
                   <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
+                  หากสนใจสามารถสั่งซื้อได้กับแอดมินหรือช่องทางสั่งซื้อออนไลน์
                   </p>
                 </div>
               </div>
