@@ -26,6 +26,10 @@ Route::view('/', 'promotepage.home')->name('home');
 
 Route::view('/mashroom', 'promotepage.mashroom')->name('mashroom');
 Route::view('/mashroomkonnoy', 'promotepage.mashroomkonnoy')->name('mashroomkonnoy');
+Route::view('/mashroomkondum', 'promotepage.mashroomkondum')->name('mashroomkondum');
+Route::view('/mushroomangle', 'promotepage.mushroomangle')->name('mushroomangle');
+Route::view('/mushroomputan', 'promotepage.mushroomputan')->name('mushroomputan');
+Route::view('/mushroomrinje', 'promotepage.mushroomrinje')->name('mushroomrinje');
 
 //end promote
 

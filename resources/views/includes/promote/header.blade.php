@@ -40,10 +40,10 @@
                 <!-- <ul> -->
                   <li><a href="{{ route('mashroom') }}">เห็ดโคนน้อย</a></li>
                   <li><a href="{{ route('mashroomkonnoy') }}">เห็ดขอนขาว</a></li>
-                  <li><a href="#">เห็ดขอนดำ</a></li>
-                  <li><a href="#">เห็ดนางฟ้า</a></li>
-                  <li><a href="#">เห็ดภูฐาน</a></li>
-                  <li><a href="#">เห็ดหลินจือ</a></li>
+                  <li><a href="{{ route('mashroomkondum') }}">เห็ดขอนดำ</a></li>
+                  <li><a href="{{ route('mushroomangle') }}">เห็ดนางฟ้า</a></li>
+                  <li><a href="{{ route('mushroomputan') }}">เห็ดภูฐาน</a></li>
+                  <li><a href="{{ route('mushroomrinje') }}">เห็ดหลินจือ</a></li>
                 <!-- </ul> -->
               <!-- </li> -->
               <!-- <li><a href="#">เห็ดขอนขาว</a></li>
