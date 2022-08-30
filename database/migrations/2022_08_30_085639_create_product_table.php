@@ -13,11 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('contact', function (Blueprint $table) {
+        Schema::create('product', function (Blueprint $table) {
             $table->id();
-            $table->string('phonenumber')->nullable()->comment('เบอร์โทร');
-            $table->integer('line')->nullable()->comment('line');
-            $table->integer('facebook')->nullable()->comment('facebook');
+            $table->string('img')->nullable()->comment('รูป');
+            $table->string('type')->nullable()->comment('ประเภทสินค้า');
+            $table->string('details')->nullable()->comment('รายละเอียดสินค้า');
+            $table->string('price')->nullable()->comment('ราคา');
             $table->integer('created_by')->nullable()->comment('user ที่เพิ่ม');
             $table->integer('updated_by')->nullable()->comment('user ที่แก้ไข');
             $table->integer('delete_by')->nulltable()->comment('user ที่ลบ');
@@ -33,6 +34,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('contact');
+        Schema::dropIfExists('product');
     }
 };

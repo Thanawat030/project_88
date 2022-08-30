@@ -13,16 +13,19 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('contact', function (Blueprint $table) {
+        Schema::create('delivery', function (Blueprint $table) {
             $table->id();
-            $table->string('phonenumber')->nullable()->comment('เบอร์โทร');
-            $table->integer('line')->nullable()->comment('line');
-            $table->integer('facebook')->nullable()->comment('facebook');
+            $table->string('day')->nullable()->comment('วันที่ส่ง');
+            $table->string('line')->nullable()->comment('line');
+            $table->string('address')->nullable()->comment('ที่อยู่ลูกค้า');
+            $table->string('quantity')->nullable()->comment('จำนวน');
+            $table->string('details_delivery')->nullable()->comment('รายละเอียดการส่ง');
+            $table->string('price')->nullable()->comment('ราคา');
             $table->integer('created_by')->nullable()->comment('user ที่เพิ่ม');
             $table->integer('updated_by')->nullable()->comment('user ที่แก้ไข');
             $table->integer('delete_by')->nulltable()->comment('user ที่ลบ');
             $table->timestamps();
-            $table->softDeletes();
+            $table->softDeletes();  
         });
     }
 
@@ -33,6 +36,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('contact');
+        Schema::dropIfExists('delivery');
     }
 };
