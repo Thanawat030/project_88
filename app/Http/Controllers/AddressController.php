@@ -25,4 +25,12 @@ class AddressController extends Controller
     {
         return view('/adminpage/address/adminaddress');
     }
+    public function add()
+    {
+        return view('/adminpage/address/add');
+    }
+    public function edit()
+    {
+        return view('/adminpage/address/edit');
+    }
 }

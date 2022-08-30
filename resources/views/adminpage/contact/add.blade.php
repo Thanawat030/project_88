@@ -7,7 +7,7 @@
             <div class="col-md-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">แก้ไขติดต่อ</h4>
+                  <h4 class="card-title">เพิ่มไขติดต่อ</h4>
                   <p class="card-description">
                   </p>
                   <form class="forms-sample">
