@@ -4,7 +4,7 @@
 	<title>Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
+<!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="{{ asset('admin/images/icons/logoicon.png')}}"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{ asset('admin/vendor/bootstrap/css/bootstrap.min.css')}}">
@@ -14,32 +14,33 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('admin/fonts/iconic/css/material-design-iconic-font.min.css')}}">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{ asset('admin/vendor/animate/animate.css')}}">
-<!--===============================================================================================-->	
+<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{ asset('admin/vendor/css-hamburgers/hamburgers.min.css')}}">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{ asset('admin/vendor/animsition/css/animsition.min.css')}}">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{ asset('admin/vendor/select2/select2.min.css')}}">
-<!--===============================================================================================-->	
+<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{ asset('admin/vendor/daterangepicker/daterangepicker.css')}}">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{ asset('admin/css/util.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('admin/css/main.css')}}">
-<!--===============================================================================================-->
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{asset('css/auth.css')}}">
 </head>
 <body>
-	
-	<div class="limiter">
-		<div class="container-login100" style="background-image: url('admin/images/bg-01.jpg');">
-			<div class="wrap-login100">
+
+	<!-- <div class="limiter"> -->
+		<!-- <div class="container-login100" style="background-image: url('admin/images/bg-01.jpg');"> -->
+			<!-- <div class="wrap-login100"> -->
 				@yield('text')
-			</div>
-		</div>
-	</div>
-	
+			<!-- </div> -->
+		<!-- </div> -->
+	<!-- </div> -->
+
 
 	<div id="dropDownSelect1"></div>
-	
+
 <!--===============================================================================================-->
 	<script src="{{ asset('admin/vendor/jquery/jquery-3.2.1.min.js')}}"></script>
 <!--===============================================================================================-->
@@ -56,6 +57,7 @@
 	<script src="{{ asset('admin/vendor/countdowntime/countdowntime.js')}}"></script>
 <!--===============================================================================================-->
 	<script src="{{ asset('admin/js/main.js')}}"></script>
+	<script src="{{ asset('js/auth.js')}}"></script>
 
 </body>
 </html>

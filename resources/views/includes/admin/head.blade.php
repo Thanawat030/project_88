@@ -17,3 +17,5 @@
   <link rel="stylesheet" href="{{asset('template/admin/css/vertical-layout-light/style.css')}}">
   <!-- endinject -->
   <link rel="shortcut icon" href="{{asset('template/admin/images/favicon.png')}}" />
+  
+  
