@@ -14,7 +14,7 @@
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown"><span>เห็ดภูฐาน</span></h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <p class="animate__animated animate__fadeInUp">เห็ดนางฟ้าภูฐาน จัดเป็นเห็ดเศรษฐกิจอีกหนึ่งที่เป็นที่นิยมบริโภคของบุคคลทั่วไป เป็นเห็ดที่เพาะง่าย มีอายุการพักเชื้อที่สั้น เพาะได้เกือบทุกฤดูยกเว้นในช่วงฤดูร้อน เพราะเห็ดชอบอากาศเย็นชื้น ในการเพาะเห็ดนางฟ้าภูฐานนิยมใช้ขี้เลื่อยไม้ยางพาราเป็นวัสดุเพาะ เพราะเป็นวัสดุที่ให้ผลผลิตสูงและเก็บผลผลิตได้นาน เฉลี่ยประมาณ ๔ เดือน และมีวิธีการเพาะที่ง่าย คุ้มทุน อีกทั้งยังดูแลรักษาง่าย นอกจากขี้เลื่อยไม้ยางพารา ยังมีวัสดุอีกหลายอย่างที่สามารถนำมาเพาะได้ เช่น ฟางข้าว แต่วิธีการที่ซับซ้อนกว่าและมีระยะเวลาในการให้ผลผลสั้น ดังนั้นจึงขอแนะนำการเพาะเห็ดนางฟ้าด้วยขี้เลื่อยไม้ยางพารา</p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">เห็ดแต่ละชนิดในร้าน</a>
                   <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">ติดต่อสอบถาม</a>
@@ -27,8 +27,17 @@
           <div class="carousel-item" style="background-image: url(template/promote/assets/img/slide/slide-2.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown">เห็ดภูฐาน</h2>
+                <p class="animate__animated animate__fadeInUp">เห็ดนางฟ้าภูฐานเป็นเห็ดที่เกิดขึ้นบนต้นไม้
+เนื้ออ่อนที่ตายแล้ว เจริญเติบโตได้เร็วมาก ซึ่งพบที่
+ประเทศภูฐาน เป็นเห็ดตระกูลเดียวกับเห็ดนางฟ้า 
+ท าการคัดเลือกโดยอาจารย์อานนท์ เอื้อตระกูล 
+เมื่อครั้งที่ไปด ารงต าแหน่งผู้เชี่ยวชาญเห็ดของ
+องค์การอาหารและเกษตรแห่งสหประชาชาติ ณ 
+ประเทศภูฐาน ท่านได้รับเชิญจากองค์การอาหาร
+แห่งสหประชาชาติให้เป็นผู้เชี่ยวชาญเห็ดประจ า
+ประเทศภูฐาน ได้รวบรวมและคัดเลือกส่งกลับ
+เมืองไทยเพื่อให้ทดลองซ้ าให้แน่ใจอีกครั้งหนึ่ง</p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">เห็ดแต่ละชนิดในร้าน</a>
                   <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">ติดต่อสอบถาม</a>
@@ -41,8 +50,16 @@
           <div class="carousel-item" style="background-image: url(template/promote/assets/img/slide/slide-3.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown">เห็ดภูฐาน</h2>
+                <p class="animate__animated animate__fadeInUp">ความดีเด่นของเห็ดนางฟ้าภูฐาน คือเส้นใยเจริญ
+ได้ดี และเร็วมาก ทั้งในอาหารวุ้นและหัวเชื้อเมล็ด
+ธัญพืช เส้นใยเจริญบางในระยะแรกแล้วจะรวมตัว
+กันหนาขึ้นเดินเต็ม แต่หัวเชื้อบริสุทธิ์ จะมีการอ่อน
+ตัวเร็วมาก หากท าการต่อเชื้อบ่อยครั้ง สิ่งที่เด่นกว่า
+เห็ดชนิดอื่นคือการออกดอกเห็ดเร็ว ระยะช่วงห่าง
+ของการออกดอกสั้น มีความสามารถในการใช้
+อาหารสูง ถ้าใส่อาหารมากผลผลิตก็มาก มีความ
+ต้านทานราสีเขียวและราสีดำสูง </p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">เห็ดแต่ละชนิดในร้าน</a>
                   <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">ติดต่อสอบถาม</a>
@@ -69,7 +86,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Organize Your <span>Events</span> in our Restaurant</h2>
+          <h2>ราคาของ <span>เห็ดนางฟ้า</span> ในร้านบ้านสวนเห็ด</h2>
         </div>
 
         <div class="events-slider swiper">
@@ -81,49 +98,20 @@
                   <img src="template/promote/assets/img/event-birthday.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Birthday Parties</h3>
+                  <h3>เชื้อเห็ดนางฟ้าราคาส่ง</h3>
                   <div class="price">
-                    <p><span>$189</span></p>
+                    <p><span>7฿</span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    เชื้อเห็ดนางฟ้าราคาส่งคุณภาพดี เหมาะกับการเพาะพันธุ์ขายหรือใช้เองภายในครัวเรือน
                   </p>
                   <ul>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circle"></i> ปลอดภัยไร้สารพิษ</li>
+                    <li><i class="bi bi-check-circle"></i> เชื้อเห็ดแข็งแรง</li>
+                    <li><i class="bi bi-check-circle"></i> ราคาดี พันธุ์สวย</li>
                   </ul>
                   <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="template/promote/assets/img/event-private.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Private Parties</h3>
-                  <div class="price">
-                    <p><span>$290</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
+                   หากสนใจสามารถสั่งซื้อได้กับแอดมินหรือช่องทางสั่งซื้อออนไลน์
                   </p>
                 </div>
               </div>
@@ -135,22 +123,20 @@
                   <img src="template/promote/assets/img/event-custom.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Custom Parties</h3>
+                  <h3>โปรโมชั่นสำหรับเห็ดนางฟ้า</h3>
                   <div class="price">
-                    <p><span>$99</span></p>
+                    <p><span>สั่งซื้อเห็ดนางฟ้าพร้อมเชื้อเห็ดขอนดำหรือขอนขาว 400฿ ขึ้นไป จัดส่งฟรี</span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    โปรโมชั่นสำหรับลูกค้าที่ต้องการตุนเชื้อเห็ดนางฟ้า ขอนขาวและขอนดำ สั่งซื้อในราคาส่ง 400฿ ขึ้นไป จัดส่งฟรี
                   </p>
                   <ul>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circle"></i> คุ้มค่า คุ้มราคา</li>
+                    <li><i class="bi bi-check-circle"></i> โปรโมชั่นนี้ใช้ได้กับเชื้อเห็ดทุกชนิดในร้าน ยกเว้น เชื้อเห็ดโคนน้อย</li>
+                    <li><i class="bi bi-check-circle"></i> โปรโมชั่นตั้งแต่วันที่ 25 พ.ย. - 3 ธ.ค. 65</li>
                   </ul>
                   <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
+                  หากสนใจสามารถสั่งซื้อได้กับแอดมินหรือช่องทางสั่งซื้อออนไลน์
                   </p>
                 </div>
               </div>
