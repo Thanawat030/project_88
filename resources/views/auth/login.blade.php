@@ -4,16 +4,20 @@
 
 <div class="form-structor">
 	<div class="signup slide-up">
-
 		<h2 class="form-title" id="signup"><span>or</span>Sign up</h2>
-		<div class="form-holder">
-			<input type="text" class="input" placeholder="Name" />
-			<input type="email" class="input" placeholder="Email" />
-			<input type="password" class="input" placeholder="Password" />
-		</div>
-		<button class="submit-btn">Sign up</button>
+		
+		<form method="post" action="{{ route('register') }}">
+		@csrf
+			<div class="form-holder">
+				<input type="text"  id="name" name="name" class="input  @error('name') is-invalid @enderror" value="{{ old('name') }}" autocomplete="name" autofocus placeholder="Name" />
+				<input type="email" id="email" name="email" class="input @error('email') is-invalid @enderror" value="{{ old('email') }}" autocomplete="email" placeholder="Email" />
+				<input type="password" id="password" name="password" class="input @error('password') is-invalid @enderror" placeholder="Password"  autocomplete="new-password" />
+				<input type="password" id="password-confirm" name="password_confirmation"  class="input" placeholder="Password" autocomplete="new-password"/>
+			</div>
+			<button type="submit" class="submit-btn">Sign up</button>
+		</form>
 	</div>
-	<div class="login ">
+	<div class="login">
 		<div class="center">
 			<h2 class="form-title" id="login"><span>or</span>Log in</h2>
 			<form method="post" action="{{ route('login') }}">
@@ -22,7 +26,7 @@
 					<input type="email" class="input" name="email" id="username" placeholder="Email" />
 					<input type="password" class="input" name="password" id="password" placeholder="Password" />
 				</div>
-				<button class="submit-btn">Log in</button>
+				<button type="submit" class="submit-btn">Log in</button>
 			</form>
 		</div>
 	</div>

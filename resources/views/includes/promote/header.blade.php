@@ -54,7 +54,14 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="{{ (url()->current() == route('home')) ? route('home').'/#specials' : '/#specials' }}">รายละเอียดสินค้า</a></li>
-          <li class="dropdown"><a href="#" class="btn-menu animate__animated animate__fadeInUp scrollto" ><span>เข้าสู่ระบบ</span> <i class="bi bi-chevron-down"></i></a>
+
+          @if( auth()->check() )
+          <li><a class="nav-link scrollto" href="{{ route('adminpage.adminhome') }}">เข้าหน้าแอดมิน</a></li>
+
+          @else
+          <li><a class="nav-link scrollto" href="{{ route('login') }}">เข้าสู่ระบบ</a></li>
+            @endif
+          <!-- <li class="dropdown"><a href="#" class="btn-menu animate__animated animate__fadeInUp scrollto" ><span>เข้าสู่ระบบ</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
             @if (Route::has('login'))
                     @auth
@@ -68,7 +75,8 @@
                     @endauth
                   @endif
             </ul>
-          </li>
+          </li> -->
+
           <!-- <div class="dropdown">
               @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">

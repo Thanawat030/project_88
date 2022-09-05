@@ -13,7 +13,7 @@
                   </p>
                   <div class="table-responsive">
                     <table class="table">
-                      <thead> 
+                      <thead>
                         <tr>
                           <th>ID</th>
                           <th>เบอร์โทร</th>
@@ -31,7 +31,7 @@
             <div class="col-md-12 grid-margin">
               <div class="row">
                 <div class="col-12 col-xl-8 mb-4 mb-xl-0">
-                  <h3 class="font-weight-bold">Welcome Admin</h3>
+                  <h3 class="font-weight-bold">Welcome {{ auth()->user()->name }}</h3>
                   <h6 class="font-weight-normal mb-0">All systems are running smoothly! You have <span class="text-primary">3 unread alerts!</span></h6>
                 </div>
                 <div class="col-12 col-xl-4">
@@ -131,7 +131,7 @@
                     <div class="mr-5 mt-3">
                       <p class="text-muted">จำนวนออร์เดอร์</p>
                       <h3 class="text-primary fs-30 font-weight-medium">71.56%</h3>
-                    </div> 
+                    </div>
                   </div>
                   <canvas id="order-chart"></canvas>
                 </div>
@@ -165,7 +165,7 @@
                               <h1 class="text-primary">34040บาท</h1>
                               <h3 class="font-weight-500 mb-xl-4 text-primary">ภาคกลาง</h3>
                               <!-- <p class="mb-2 mb-xl-0">The total number of sessions within the date range. It is the period time a user is actively engaged with your website, page or app, etc</p> -->
-                            </div>  
+                            </div>
                             </div>
                           <div class="col-md-12 col-xl-9">
                             <div class="row">
@@ -362,7 +362,7 @@
                               <h1 class="text-primary">34040บาท</h1>
                               <h3 class="font-weight-500 mb-xl-4 text-primary">ภาคเหนือ</h3>
                               <!-- <p class="mb-2 mb-xl-0">The total number of sessions within the date range. It is the period time a user is actively engaged with your website, page or app, etc</p> -->
-                            </div>  
+                            </div>
                             </div>
                           <div class="col-md-12 col-xl-9">
                             <div class="row">
@@ -453,7 +453,7 @@
                       <span class="sr-only">Next</span>
                     </a>
                   </div>
-                </div>    
+                </div>
               </div>
             </div>
           </div>
@@ -470,7 +470,7 @@
                           <th>Price</th>
                           <th>Date</th>
                           <th>Status</th>
-                        </tr>  
+                        </tr>
                       </thead>
                       <tbody>
                         <tr>
@@ -681,14 +681,14 @@
                             <p class="mb-0">687</p>
                           </div>
                         </div>
-                      </div>  
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-12 stretch-card grid-margin grid-margin-md-0">
                   <div class="card data-icon-card-primary">
                     <div class="card-body">
-                      <p class="card-title text-white">Number of Meetings</p>                      
+                      <p class="card-title text-white">Number of Meetings</p>
                       <div class="row">
                         <div class="col-8 text-white">
                           <h3>34040</h3>
@@ -790,7 +790,7 @@
                   </div>
                 </div> -->
 
-                
+
               </div>
             </div>
         </div>
@@ -802,9 +802,9 @@
             <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
           </div>
           <div class="d-sm-flex justify-content-center justify-content-sm-between">
-            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Distributed by <a href="https://www.themewagon.com/" target="_blank">Themewagon</a></span> 
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Distributed by <a href="https://www.themewagon.com/" target="_blank">Themewagon</a></span>
           </div>
-        </footer> 
+        </footer>
         <!-- partial -->
       </div>
 @stop
@@ -816,8 +816,8 @@
                             <td><label class="badge badge-danger">แก้ไข</label></td>
                             <td><label class="badge badge-danger">ลบ</label></td>
                         </tr>
-                        
-                        
+
+
                       </tbody>
                     </table>
                   </div>
