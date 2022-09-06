@@ -46,27 +46,29 @@
                         </tr>
                       </thead>
                       <tbody>
-                      <td >
-                            06
-                          </td>
-                          <td class="py-1">
-                            <img src="../../images/faces/face1.jpg" alt="image"/>
+                        @foreach ($product as $row)
+                        <td >
+                            {{$row->id}}
                           </td>
                           <td>
-                            ******
+                            {{$row->img}}
                           </td>
                           <td>
-                            ******
+                          {{$row->name}}
                           </td>
                           <td>
-                            ******
+                          {{$row->type}}
                           </td>
                           <td>
-                            ******
+                          {{$row->details}}
+                          </td>
+                          <td>
+                          {{$row->price}}
                           </td>
                           <td><label class="badge badge-danger">แก้ไข</label></td>
                           <td><label class="badge badge-danger">ลบ</label></td>
                         </tr>
+                        @endforeach
                       </tbody>
                     </table>
                   </div>

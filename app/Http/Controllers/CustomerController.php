@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\User;
+use App\Models\Customer;
 
 
 class CustomerController extends Controller
@@ -25,12 +25,26 @@ class CustomerController extends Controller
      */
     public function index()
     {
-        $customer = User::all();
+        $customer = customer::all();
         return view('adminpage/customer/admincustomer' , compact('customer'));
     }
-    public function add()
+    public function formadd()
     {
-        return view('/adminpage/customer/add');
+        return view('adminpage.customer.add');
+    }
+    public function add(Request $request)
+    {
+        //C2->create
+        $request->validate([
+            // 'picture'=>'null'
+            'name'=>'nullable',
+            'lastname'=>'nullable',
+        ]);
+
+        Customer::create($request->all());
+            
+
+        return redirect()->route('adminpage.customer.admincustomer');
     }
     public function edit()
     {

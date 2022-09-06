@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Address;
 
 class AddressController extends Controller
 {
@@ -23,11 +24,26 @@ class AddressController extends Controller
      */
     public function index()
     {
-        return view('/adminpage/address/adminaddress');
+        $address = address::all();
+        return view('adminpage.address.adminaddress',compact('address'));
     }
-    public function add()
+    public function formadd()
     {
-        return view('/adminpage/address/add');
+        return view('.adminpage.address.add');
+    }
+    public function add(Request $request)
+    {
+        //C2->create
+        $request->validate([
+            // 'picture'=>'null'
+            'id'=>'nullable',
+            'address'=>'nullable',
+        ]);
+
+        Address::create($request->all());
+            
+
+        return redirect()->route('adminpage.address.adminaddress');
     }
     public function edit()
     {

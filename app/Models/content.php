@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class content extends Model
 {
-    use HasFactory;
+    protected $table = 'content';
+    protected $fillable =['img','content'];
 }

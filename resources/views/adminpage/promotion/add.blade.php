@@ -10,23 +10,24 @@
                   <h4 class="card-title">เพิ่มโปรโมชั่น</h4>
                   <p class="card-description">
                   </p>
-                  <form class="forms-sample">
+                  <form action="{{route('adminpage.promotion.add')}}" method="POST" class="forms-sample">
+                    @csrf
                     <div class="form-group row">
                       <label for="exampleInputUsername2" class="col-sm-3 col-form-label">รูป</label>
                       <div class="col-sm-9">
-                        <input type="text" class="form-control" id="exampleInputUsername2" placeholder="">
+                        <input type="text" name="img" class="form-control" id="exampleInputUsername2" placeholder="">
                       </div>
                     </div>
                     <div class="form-group row">
                       <label for="exampleInputEmail2" class="col-sm-3 col-form-label">ข้อความหลัก</label>
                       <div class="col-sm-9">
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="">
+                        <input type="text" name="main_text" class="form-control" id="exampleInputEmail2" placeholder="">
                       </div>
                     </div>
                     <div class="form-group row">
                       <label for="exampleInputMobile" class="col-sm-3 col-form-label">ข้อความรอง</label>
                       <div class="col-sm-9">
-                        <input type="text" class="form-control" id="exampleInputMobile" placeholder="">
+                        <input type="text" name="details" class="form-control" id="exampleInputMobile" placeholder="">
                       </div>
                     </div>
                     <button type="submit" class="btn btn-primary mr-2">Submit</button>

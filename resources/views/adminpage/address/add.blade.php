@@ -10,11 +10,12 @@
                   <h4 class="card-title">เพิ่มที่อยู่ลูกค้า</h4>
                   <p class="card-description">
                   </p>
-                  <form class="forms-sample">
-                    <div class="form-group row">
+                  <form  action="{{route('adminpage.address.add')}}" method="POST" class="forms-sample">
+                  @csrf  
+                  <div class="form-group row">
                       <label for="exampleInputUsername2" class="col-sm-3 col-form-label">ที่อยู่</label>
                       <div class="col-sm-9">
-                        <input type="text" class="form-control" id="exampleInputUsername2" placeholder="">
+                        <input type="text" name="address" class="form-control" id="exampleInputUsername2" placeholder="">
                       </div>
                     </div>
                     <button type="submit" class="btn btn-primary mr-2">Submit</button>

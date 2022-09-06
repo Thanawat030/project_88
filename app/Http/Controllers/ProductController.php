@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -23,11 +24,29 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('/adminpage/product/adminproduct');
+        $product = product::all();
+        return view('/adminpage/product/adminproduct',compact('product'));
     }
-    public function add()
+    public function formadd()
     {
-        return view('/adminpage/product/add');
+        return view('adminpage.product.add');
+    }
+    public function add(Request $request)
+    {
+        //C2->create
+        $request->validate([
+            // 'picture'=>'null'
+            'img'=>'nullable',
+            'name'=>'nullable',
+            'type'=>'nullable',
+            'details'=>'nullable',
+            'price'=>'nullable',
+        ]);
+
+        Product::create($request->all());
+            
+
+        return redirect()->route('adminpage.product.adminproduct');
     }
     public function edit()
     {

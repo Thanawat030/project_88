@@ -10,17 +10,18 @@
                   <h4 class="card-title">เพิ่มชื่อลูกค้า</h4>
                   <p class="card-description">
                   </p>
-                  <form class="forms-sample">
+                  <form action="{{ route('adminpage.customer.add')}}" method="POST" class="forms-sample">
+                  @csrf
                     <div class="form-group row">
                       <label for="exampleInputUsername2" class="col-sm-3 col-form-label">ชื่อ</label>
                       <div class="col-sm-9">
-                        <input type="text" class="form-control" id="exampleInputUsername2" placeholder="">
+                        <input type="text" name="name" class="form-control" id="exampleInputUsername2" placeholder="">
                       </div>
                     </div>
                     <div class="form-group row">
                       <label for="exampleInputEmail2" class="col-sm-3 col-form-label">นามสกุล</label>
                       <div class="col-sm-9">
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="">
+                        <input type="text" name="lastname" class="form-control" id="exampleInputEmail2" placeholder="">
                       </div>
                     </div>
                     <button type="submit" class="btn btn-primary mr-2">Submit</button>

@@ -7,38 +7,39 @@
             <div class="col-md-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">เพิ่มชื่อลูกค้า</h4>
+                  <h4 class="card-title">เพิ่มรายการจัดส่ง</h4>
                   <p class="card-description">
                   </p>
-                  <form class="forms-sample">
+                  <form action="{{route('adminpage.delivery.add')}}" class="forms-sample">
+                  @csrf
                     <div class="form-group row">
                       <label for="exampleInputUsername2" class="col-sm-3 col-form-label">วันที่ส่ง</label>
                       <div class="col-sm-9">
-                        <input type="text" class="form-control" id="exampleInputUsername2" placeholder="">
+                        <input type="date" name="day" class="form-control" id="exampleInputUsername2" placeholder="">
                       </div>
                     </div>
                     <div class="form-group row">
                       <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Line</label>
                       <div class="col-sm-9">
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="">
+                        <input type="text" name="line" class="form-control" id="exampleInputEmail2" placeholder="">
                       </div>
                     </div>
                     <div class="form-group row">
                       <label for="exampleInputEmail2" class="col-sm-3 col-form-label">ที่อยู่ลูกค้า</label>
                       <div class="col-sm-9">
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="">
+                        <input type="text" name="address" class="form-control" id="exampleInputEmail2" placeholder="">
                       </div>
                     </div>
                     <div class="form-group row">
                       <label for="exampleInputEmail2" class="col-sm-3 col-form-label">จำนวนสินค้า</label>
                       <div class="col-sm-9">
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="">
+                        <input type="text" name="quantity" class="form-control" id="exampleInputEmail2" placeholder="">
                       </div>
                     </div>
                     <div class="form-group row">
                       <label for="exampleInputEmail2" class="col-sm-3 col-form-label">รายละเอียดการจัดส่ง</label>
                       <div class="col-sm-9">
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="">
+                        <input type="text" name="price" class="form-control" id="exampleInputEmail2" placeholder="">
                       </div>
                     </div>
                     <button type="submit" class="btn btn-primary mr-2">Submit</button>

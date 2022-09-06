@@ -5,7 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class type_product extends Model
+class Type extends Model
 {
-    use HasFactory;
+    protected $table = 'type_product';
+    protected $fillable =['id','name',];
 }

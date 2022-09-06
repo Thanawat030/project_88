@@ -10,23 +10,24 @@
                   <h4 class="card-title">เพิ่มไขติดต่อ</h4>
                   <p class="card-description">
                   </p>
-                  <form class="forms-sample">
+                  <form action="{{ route('adminpage.contact.add')}}" method="POST" class="forms-sample">
+                    @csrf
                     <div class="form-group row">
                       <label for="exampleInputUsername2" class="col-sm-3 col-form-label">phonenumber</label>
                       <div class="col-sm-9">
-                        <input type="text" class="form-control" id="exampleInputUsername2" placeholder="เบอร์โทร">
+                        <input type="text"  name="phonenumber" class="form-control" id="exampleInputUsername2" placeholder="เบอร์โทร">
                       </div>
                     </div>
                     <div class="form-group row">
                       <label for="exampleInputEmail2" class="col-sm-3 col-form-label">line</label>
                       <div class="col-sm-9">
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="ไลน์">
+                        <input type="text" name="line" class="form-control" id="exampleInputEmail2" placeholder="ไลน์">
                       </div>
                     </div>
                     <div class="form-group row">
                       <label for="exampleInputMobile" class="col-sm-3 col-form-label">facebook</label>
                       <div class="col-sm-9">
-                        <input type="text" class="form-control" id="exampleInputMobile" placeholder="เบอร์โทร">
+                        <input type="text" name="facebook" class="form-control" id="exampleInputMobile" placeholder="เบอร์โทร">
                       </div>
                     </div>
                     <button type="submit" class="btn btn-primary mr-2">Submit</button>

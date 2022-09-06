@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\models\Type;
 
 class TypeController extends Controller
 {
@@ -23,11 +24,25 @@ class TypeController extends Controller
      */
     public function index()
     {
-        return view('/adminpage/type/admintype');
+        $type_product = type::all();
+        return view('/adminpage/type/admintype',compact('type_product'));
     }
-    public function add()
+    public function formadd()
     {
         return view('/adminpage/type/add');
+    }
+    public function add(Request $request)
+    {
+        //C2->create
+        $request->validate([
+            // 'picture'=>'null'
+            'name'=>'nullable',
+        ]);
+
+        Type::create($request->all());
+            
+
+        return redirect()->route('adminpage.type.admintype');
     }
     public function edit()
     {

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Delivery;
 
 class DeliveryController extends Controller
 {
@@ -23,11 +24,30 @@ class DeliveryController extends Controller
      */
     public function index()
     {
-        return view('adminpage/delivery/admindelivery');
+        $delivery = delivery::all();
+        return view('adminpage/delivery/admindelivery',compact('delivery'));
     }
-    public function add()
+    public function formadd()
     {
-        return view('adminpage/delivery/add');
+        return view('adminpage.delivery.add');
+    }
+    public function add(Request $request)
+    {
+        //C2->create
+        $request->validate([
+            // 'picture'=>'null'
+            'day'=>'nullable',
+            'line'=>'nullable',
+            'address'=>'nullable',
+            'quantity'=>'nullable',
+            'details_delivery'=>'nullable',
+            'price'=>'nullable',
+        ]);
+
+        Delivery::create($request->all());
+            
+
+        return redirect()->route('adminpage.delivery.admindelivery');
     }
     public function edit()
     {

@@ -33,14 +33,12 @@
                         </tr>
                       </thead>
                       <tbody>
-                      <td >
-                            01
-                          </td>
-                          <td class="py-1">
-                            <img src="../../images/faces/face1.jpg" alt="image"/>
-                          </td>
+                      @foreach($blackground as $row)
+                          <td>{{$row->id}}</td>
+                          <td>{{$row->img}}</td>
                           <td><label class="badge badge-danger">แก้ไข</label></td>
                           <td><label class="badge badge-danger">ลบ</label></td>
+                      @endforeach
                       </tbody>
                     </table>
                   </div>

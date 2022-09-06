@@ -24,14 +24,15 @@
                         </tr>
                       </thead>
                       <tbody>
+                      @foreach($type_product as $row)
                         <tr>
-                          <td>01</td>
-                          <td>*****</td>
+                          <td>{{$row->id}}</td>
+                          <td>{{$row->name}}</td>
                           <td><label class="badge badge-danger">แก้ไข</label></td>
                           <td><label class="badge badge-danger">ลบ</label></td>
                         </tr>
                         
-                        
+                        @endforeach
                       </tbody>
                     </table>
                   </div>

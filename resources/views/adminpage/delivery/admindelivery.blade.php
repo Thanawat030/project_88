@@ -29,17 +29,19 @@
                         </tr>
                       </thead>
                       <tbody>
+                        @foreach ($delivery as $row)
                         <tr>
-                          <td>01</td>
-                          <td>092-666-555</td>
-                          <td>*****</td>
-                          <td>*****</td>
-                          <td>*****</td>
-                          <td>*****</td>
-                          <td>*****</td>
+                          <td>{{$row->id}}</td>
+                          <td>{{$row->day}}</td>
+                          <td>{{$row->line}}</td>
+                          <td>{{$row->address}}</td>
+                          <td>{{$row->quantity}}</td>
+                          <td>{{$row->details_delivery}}</td>
+                          <td>{{$row->price}}</td>
                           <td><label class="badge badge-danger">แก้ไข</label></td>
                           <td><label class="badge badge-danger">ลบ</label></td>
                         </tr>
+                        @endforeach
                         
                         
                       </tbody>

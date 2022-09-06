@@ -9,7 +9,7 @@
                 <div class="card-body">
                   <h4 class="card-title">ตารางติดต่อ </h4>
                   <p class="card-description">
-                  <a class="btn btn-danger" href="{{ url('/admin/admincontact/add')}}">
+                  <a class="btn btn-danger" href="{{ url('/admin/contact/add')}}">
               <i class="icon-contract menu-icon"></i>
               <span class="menu-title">เพิ่ม</span>
             </a>
@@ -27,16 +27,17 @@
                         </tr>
                       </thead>
                       <tbody>
+                        @foreach($contact as $row)
                         <tr>
-                          <td>01</td>
-                          <td>092-666-555</td>
-                          <td>*****</td>
-                          <td>*****</td>
+                          <td>{{$row->id}}</td>
+                          <td>{{$row->phonenumber}}</td>
+                          <td>{{$row->line}}</td>
+                          <td>{{$row->facebook}}</td>
                             <td><label class="badge badge-danger">แก้ไข</label></td>
                             <td><label class="badge badge-danger">ลบ</label></td>
                         </tr>
                         
-                        
+                        @endforeach
                       </tbody>
                     </table>
                   </div>

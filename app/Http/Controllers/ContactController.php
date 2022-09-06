@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\models\Contact;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -23,11 +24,29 @@ class ContactController extends Controller
      */
     public function index()
     {
-        return view('/adminpage/contact/admincontact');
+        //R Read
+        $contact = contact::all();
+        return view('adminpage.contact.admincontact',compact('contact'));
     }
-    public function add()
+    public function formadd()
     {
-        return view('/adminpage/contact/add');
+        //C1->from
+        return view('adminpage.contact.add');
+    }
+    public function add(Request $request)
+    {
+        //C2->create
+        $request->validate([
+            // 'picture'=>'null'
+            'phonenumber'=>'nullable',
+            'line'=>'nullable',
+            'facebook'=>'nullable',
+        ]);
+
+        Contact::create($request->all());
+            
+
+        return redirect()->route('adminpage.contact.admincontact');
     }
     public function edit()
     {

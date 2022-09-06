@@ -39,103 +39,24 @@
                         </tr>
                       </thead>
                       <tbody>
+                      @foreach($promotion as $row)
                         <tr>
-                        <td >
-                            01
-                          </td>
-                          <td class="py-1">
-                            <img src="../../images/faces/face1.jpg" alt="image"/>
+                          <td >
+                            {{$row->id}}
                           </td>
                           <td>
-                            ******
+                            {{$row->img}}
                           </td>
                           <td>
-                            ******
+                            {{$row->main_text}}
+                          </td>
+                          <td>
+                            {{$row->details}}
                           </td>
                           <td><label class="badge badge-danger">แก้ไข</label></td>
                           <td><label class="badge badge-danger">ลบ</label></td>
                         </tr>
-                        
-                        <tr>
-                        <td >
-                            02
-                          </td>
-                          <td class="py-1">
-                            <img src="../../images/faces/face1.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            ******
-                          </td>
-                          <td>
-                            ******
-                          </td>
-                          <td><label class="badge badge-danger">แก้ไข</label></td>
-                          <td><label class="badge badge-danger">ลบ</label></td>
-                        </tr>
-                        <tr>
-                        <td >
-                            03
-                          </td>
-                          <td class="py-1">
-                            <img src="../../images/faces/face1.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            ******
-                          </td>
-                          <td>
-                            ******
-                          </td>
-                          <td><label class="badge badge-danger">แก้ไข</label></td>
-                          <td><label class="badge badge-danger">ลบ</label></td>
-                        </tr>
-                        <tr>
-                        <td >
-                            04
-                          </td>
-                          <td class="py-1">
-                            <img src="../../images/faces/face1.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            ******
-                          </td>
-                          <td>
-                            ******
-                          </td>
-                          <td><label class="badge badge-danger">แก้ไข</label></td>
-                          <td><label class="badge badge-danger">ลบ</label></td>
-                        </tr>
-                        <tr>
-                        <td >
-                            05
-                          </td>
-                          <td class="py-1">
-                            <img src="../../images/faces/face1.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            ******
-                          </td>
-                          <td>
-                            ******
-                          </td>
-                          <td><label class="badge badge-danger">แก้ไข</label></td>
-                          <td><label class="badge badge-danger">ลบ</label></td>
-                        </tr>
-                        <tr>
-                        <td >
-                            06
-                          </td>
-                          <td class="py-1">
-                            <img src="../../images/faces/face1.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            ******
-                          </td>
-                          <td>
-                            ******
-                          </td>
-                          <td><label class="badge badge-danger">แก้ไข</label></td>
-                          <td><label class="badge badge-danger">ลบ</label></td>
-                        </tr>
+                        @endforeach
                       </tbody>
                     </table>
                   </div>

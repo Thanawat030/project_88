@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Blackground;
 
 class BlackgroundController extends Controller
 {
@@ -23,11 +24,25 @@ class BlackgroundController extends Controller
      */
     public function index()
     {
-        return view('/adminpage/blackground/adminblackground');
+        $blackground = blackground::all();
+        return view('/adminpage/blackground/adminblackground',compact('blackground'));  
     }
-    public function add()
+    public function formadd()
     {
-        return view('/adminpage/blackground/add');
+        return view('adminpage.blackground.add');
+    }
+    public function add(Request $request)
+    {
+        //C2->create
+        $request->validate([
+            // 'picture'=>'null'
+            'img'=>'nullable',
+        ]);
+
+        Blackground::create($request->all());
+            
+
+        return redirect()->route('adminpage.blackground.adminblackground');
     }
     public function edit()
     {

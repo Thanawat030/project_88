@@ -5,7 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class blackground extends Model
+class Blackground extends Model
 {
-    use HasFactory;
+    protected $table = 'blackground';
+    protected $fillable =['id','img',];
 }
