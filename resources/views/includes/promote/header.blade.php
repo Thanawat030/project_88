@@ -34,7 +34,7 @@
           href="{{ route('home') }}/#about"
           @endif
           --}}
-          <li class="dropdown"><a href="#"><span>วิธีปลูกเห็ด</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>ประวัติเห็ดในร้าน</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <!-- <li><a href="#">เห็ดโคนน้อย</a></li> -->
                 <!-- <ul> -->
