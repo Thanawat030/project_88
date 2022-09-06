@@ -23,7 +23,7 @@
                           <th>ลบ</th>
                         </tr>
                       </thead>
-                      <tbody>@extends('layouts.admin')
+                      <tbody>
 @section('content')
 <div class="main-panel">
         <div class="content-wrapper">
