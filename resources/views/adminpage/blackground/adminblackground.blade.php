@@ -34,10 +34,12 @@
                       </thead>
                       <tbody>
                       @foreach($blackground as $row)
+                      <tr>
                           <td>{{$row->id}}</td>
-                          <td>{{$row->img}}</td>
+                          <td><img src="{{ asset('blackground/'.$row->img)}}" width="100px" height="80px" alt=""></td>
                           <td><label class="badge badge-danger">แก้ไข</label></td>
-                          <td><label class="badge badge-danger">ลบ</label></td>
+                          <td><a href="{{url('/admin/adminblackground/delete/'.$row->id)}}" class="badge badge-danger"> ลบ </a></td>
+                      </tr>
                       @endforeach
                       </tbody>
                     </table>

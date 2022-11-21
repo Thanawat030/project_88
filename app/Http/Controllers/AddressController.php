@@ -45,8 +45,23 @@ class AddressController extends Controller
 
         return redirect()->route('adminpage.address.adminaddress');
     }
-    public function edit()
+    public function edit($id)
     {
-        return view('/adminpage/address/edit');
+        $Address = Address::find($id);
+        return view('adminpage.address.edit',compact('Address'));
+    }
+
+    public function update(Request $request, $id){
+        $update = Address::find($id);
+        $update->address = $request->address;
+        $update->update();
+        return redirect()->route('adminpage.address.adminaddress');
+    }
+    public function delete($id){
+        $delete = Address::find($id);
+        $delete->delete();
+        return redirect()->route('adminpage.address.adminaddress');
+    
+    
     }
 }

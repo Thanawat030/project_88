@@ -51,7 +51,7 @@
                             {{$row->id}}
                           </td>
                           <td>
-                            {{$row->img}}
+                            <img src="{{ asset('product/'.$row->img)}}" width="100px" height="80px" alt="">
                           </td>
                           <td>
                           {{$row->name}}

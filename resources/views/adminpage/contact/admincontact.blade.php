@@ -33,8 +33,8 @@
                           <td>{{$row->phonenumber}}</td>
                           <td>{{$row->line}}</td>
                           <td>{{$row->facebook}}</td>
-                            <td><label class="badge badge-danger">แก้ไข</label></td>
-                            <td><label class="badge badge-danger">ลบ</label></td>
+                          <td><a href="{{url('/admin/contact/edit/'.$row->id)}}" class="badge badge-warning"> แก้ไข</a></td>
+                          <td><a href="{{url('/admin/contact/delete/'.$row->id)}}" class="badge badge-danger"> ลบ </a></td>
                         </tr>
                         
                         @endforeach

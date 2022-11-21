@@ -10,12 +10,12 @@
                   <h4 class="card-title">เพิ่มเนื้อหา</h4>
                   <p class="card-description">
                   </p>
-                  <form  action="{{ route('adminpage.content.add')}}" method="POST" class="forms-sample">
+                  <form class="forms-sample" action="{{ route('adminpage.content.create')}}" method="POST"  enctype="multipart/form-data" >
                   @csrf
                     <div class="form-group row">
                       <label for="exampleInputUsername2" class="col-sm-3 col-form-label">รูป</label>
                       <div class="col-sm-9">
-                        <input type="text" name="img" class="form-control" id="exampleInputUsername2" placeholder="">
+                        <input type="file" name="img" class="form-control" id="exampleInputUsername2" placeholder="">
                       </div>
                     </div>
                     <div class="form-group row">

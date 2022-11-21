@@ -33,19 +33,33 @@ class ProductController extends Controller
     }
     public function add(Request $request)
     {
-        //C2->create
         $request->validate([
             // 'picture'=>'null'
-            'img'=>'nullable',
-            'name'=>'nullable',
-            'type'=>'nullable',
-            'details'=>'nullable',
-            'price'=>'nullable',
+                'name'=>'nullable',
+                'type'=>'nullable',
+                'details'=>'nullable',
+                'price'=>'nullable',
         ]);
-
-        Product::create($request->all());
+    
+        if($request->file('img')){
+    
+            $file= $request->file('img');
+            $filename= date('YmdHi'). '_' .$file->getClientOriginalName();
+            $file-> move(public_path('product'), $filename);
+        }else{
+            $filename=NULL;
+    
+        }
+        
+        product::create([
             
-
+            'img'=>$filename,
+            'name'=>$request->name,
+            'type'=>$request->type,
+            'details'=>$request->details,
+            'price'=>$request->price
+    
+        ]);
         return redirect()->route('adminpage.product.adminproduct');
     }
     public function edit()

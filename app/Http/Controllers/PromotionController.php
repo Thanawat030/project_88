@@ -36,18 +36,50 @@ class PromotionController extends Controller
         //C2->create
         $request->validate([
             // 'picture'=>'null'
-            'img'=>'nullable',
             'main_text'=>'nullable',
             'details'=>'nullable',
         ]);
 
-        Promotion::create($request->all());
+        if($request->file('img')){
+
+            $file= $request->file('img');
+            $filename= date('YmdHi'). '_' .$file->getClientOriginalName();
+            $file-> move(public_path('promotion'), $filename);
+        }else{
+            $filename=NULL;
+
+        }
+        
+        Promotion::create([
+            
+            'img'=>$filename,
+            'content'=>$request->content,
+            'main_text'=>$request->main_text,
+            'details'=>$request->details
+
+        ]);
             
 
         return redirect()->route('adminpage.promotion.adminpromotion');
+    
     }
-    public function edit()
+    public function edit($id)
     {
-        return view('/adminpage/promotion/edit');
+        $Promotion = Promotion::find($id);
+        return view('adminpage.promotion.edit',compact('Promotion'));
+    }
+    public function update(Request $request, $id){
+        $update = Promotion::find($id);
+        $update->img = $request->img;
+        $update->main_text = $request->main_text;
+        $update->details = $request->details;
+        $update->update();
+        return redirect()->route('adminpage.promotion.adminpromotion');
+    }
+    public function delete($id){
+        $delete = Promotion::find($id);
+        $delete->delete();
+        return redirect()->route('adminpage.promotion.adminpromotion');
+
     }
 }

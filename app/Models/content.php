@@ -8,5 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class content extends Model
 {
     protected $table = 'content';
-    protected $fillable =['img','content'];
+    protected $fillable =[
+        'img',
+        'content'];
 }

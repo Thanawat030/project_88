@@ -45,7 +45,7 @@
                             {{$row->id}}
                           </td>
                           <td>
-                            {{$row->img}}
+                            <img src="{{ asset('promotion/'.$row->img)}}" width="100px" height="80px" alt="">
                           </td>
                           <td>
                             {{$row->main_text}}
@@ -53,8 +53,8 @@
                           <td>
                             {{$row->details}}
                           </td>
-                          <td><label class="badge badge-danger">แก้ไข</label></td>
-                          <td><label class="badge badge-danger">ลบ</label></td>
+                          <td><a href="{{url('/admin/promotion/edit/'.$row->id)}}" class="badge badge-warning"> แก้ไข</a></td>
+                          <td><a href="{{url('/admin/promotion/delete/'.$row->id)}}" class="badge badge-danger"> ลบ </a></td>
                         </tr>
                         @endforeach
                       </tbody>

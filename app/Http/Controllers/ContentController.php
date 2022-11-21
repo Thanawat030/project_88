@@ -36,17 +36,44 @@ class ContentController extends Controller
         //C2->create
         $request->validate([
             // 'picture'=>'null'
-            'img'=>'nullable',
             'content'=>'nullable',
         ]);
 
-        Content::create($request->all());
+        if($request->file('img')){
+
+            $file= $request->file('img');
+            $filename= date('YmdHi'). '_' .$file->getClientOriginalName();
+            $file-> move(public_path('content'), $filename);
+        }else{
+            $filename=NULL;
+
+        }
+        
+        Content::create([
+            
+            'img'=>$filename,
+            'content'=>$request->content
+
+        ]);
             
 
         return redirect()->route('adminpage.content.admincontent');
     }
-    public function edit()
+    public function edit($id)
     {
-        return view('/adminpage/content/edit');
+        $Content = Content::find($id);
+        return view('adminpage.content.edit',compact('Content'));
+    }
+    public function update(Request $request, $id){
+        $update = content::find($id);
+        $update->img = $request->img;
+        $update->update();
+        return redirect()->route('adminpage.content.admincontent');
+    }
+    public function delete($id){
+        $delete = content::find($id);
+        $delete->delete();
+        return redirect()->route('adminpage.content.admincontent');
+
     }
 }

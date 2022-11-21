@@ -28,8 +28,8 @@
                         <tr>
                           <td>{{$row->id}}</td>
                           <td>{{$row->name}}</td>
-                          <td><label class="badge badge-danger">แก้ไข</label></td>
-                          <td><label class="badge badge-danger">ลบ</label></td>
+                          <td><a href="{{url('/admin/type/edit/'.$row->id)}}" class="badge badge-warning"> แก้ไข</a></td>
+                          <td><a href="{{url('/admin/type/delete/'.$row->id)}}" class="badge badge-danger"> ลบ </a></td>
                         </tr>
                         
                         @endforeach

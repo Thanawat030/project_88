@@ -42,13 +42,13 @@
                             {{$row->id}}
                           </td>
                           <td>
-                            {{$row->img}}
+                            <img src="{{ asset('content/'.$row->img)}}" width="100px" height="80px" alt="">
                           </td>
                           <td>
                             {{$row->content}}
                           </td>
-                          <td><label class="badge badge-danger">แก้ไข</label></td>
-                          <td><label class="badge badge-danger">ลบ</label></td>
+                          <td><a href="{{url('/admin/content/edit/'.$row->id)}}" class="badge badge-warning"> แก้ไข</a></td>
+                          <td><a href="{{url('/admin/content/delete/'.$row->id)}}" class="badge badge-danger"> ลบ </a></td>
                           </tr>
                           @endforeach
                       </tbody>

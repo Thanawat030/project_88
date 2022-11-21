@@ -16,7 +16,6 @@
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown"><span>Welcome to</span>Baan Suan Hed Shop</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">เห็ดแต่ละชนิดในร้าน</a>
                   <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">ติดต่อสอบถาม</a>
@@ -25,7 +24,7 @@
             </div>
           </div>
 
-          <!-- Slide 2 -->
+          {{-- <!-- Slide 2 -->
           <div class="carousel-item" style="background-image: url(template/promote/assets/img/slide/slide-2.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
@@ -51,17 +50,17 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> --}}
 
         </div>
 
-        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        {{-- <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
         </a>
 
         <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
           <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
+        </a> --}}
 
       </div>
     </div>
@@ -112,10 +111,6 @@
 
         <div class="row">
 
-          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("template/promote/assets/img/about.jpg");'>
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-          </div>
-
           <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
 
             <div class="content">
@@ -137,6 +132,9 @@
             </div>
 
           </div>
+          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("template/promote/assets/img/about.jpg");'>
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          </div>
 
         </div>
 
@@ -156,7 +154,7 @@
             <div class="box">
               <span>01</span>
               <h4>ก้อนเห็ดหลินจือขายส่ง</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+              {{-- <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p> --}}
             </div>
           </div>
 
@@ -164,7 +162,7 @@
             <div class="box">
               <span>02</span>
               <h4>โปรโมชั่นก้อนเชื้อเห็ดภูฐาน</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+              {{-- <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p> --}}
             </div>
           </div>
 
@@ -172,7 +170,7 @@
             <div class="box">
               <span>03</span>
               <h4>ราคาขายส่งก้อนเห็ดโคนน้อย</h4>
-              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+              {{-- <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p> --}}
             </div>
           </div>
 
@@ -201,7 +199,7 @@
 
           <div class="col-lg-6 menu-item filter-starters">
             <div class="menu-content">
-              <a href="#">เห็ดโคนน้อย</a><span>$5.95</span>
+              <a href="#">เห็ดโคนน้อย</a><span>4฿</span>
             </div>
             <div class="menu-ingredients">
               เชื้อเห็ดโคนน้อยคุณภาพดี
@@ -210,7 +208,7 @@
 
           <div class="col-lg-6 menu-item filter-specialty">
             <div class="menu-content">
-              <a href="#">เห็ดขอนขาว</a><span>$6.95</span>
+              <a href="#">เห็ดขอนขาว</a><span>7฿</span>
             </div>
             <div class="menu-ingredients">
               เชื้อเห็ดขอนขาวคุณภาพดี
@@ -219,7 +217,7 @@
 
           <div class="col-lg-6 menu-item filter-starters">
             <div class="menu-content">
-              <a href="#">เห็ดขอนดำ</a><span>$7.95</span>
+              <a href="#">เห็ดขอนดำ</a><span>$7฿</span>
             </div>
             <div class="menu-ingredients">
              เชื้อเห็ดขอนดำคุณภาพดี
@@ -228,7 +226,7 @@
 
           <div class="col-lg-6 menu-item filter-salads">
             <div class="menu-content">
-              <a href="#">เห็ดนางฟ้า</a><span>$8.95</span>
+              <a href="#">เห็ดนางฟ้า</a><span>7฿</span>
             </div>
             <div class="menu-ingredients">
               เชื้อเห็ดนางฟาคุณภาพดี
@@ -237,7 +235,7 @@
 
           <div class="col-lg-6 menu-item filter-specialty">
             <div class="menu-content">
-              <a href="#">เห็ดภูฐาน</a><span>$9.95</span>
+              <a href="#">เห็ดภูฐาน</a><span>7฿</span>
             </div>
             <div class="menu-ingredients">
               เชื้อเห็ดภูฐานคุณภาพดี
@@ -246,7 +244,7 @@
 
           <div class="col-lg-6 menu-item filter-salads">
             <div class="menu-content">
-              <a href="#">เห็ดหลินจือ</a><span>$9.95</span>
+              <a href="#">เห็ดหลินจือ</a><span>10฿</span>
             </div>
             <div class="menu-ingredients">
               เชื้อเห็ดหลินจือคุณภาพดี
@@ -294,7 +292,7 @@
               <div class="tab-pane active show" id="tab-1">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Architecto ut aperiam autem id</h3>
+                    <h3>เห็ดโคนน้อย</h3>
                     <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
                     <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
                   </div>

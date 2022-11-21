@@ -33,13 +33,23 @@ class BlackgroundController extends Controller
     }
     public function add(Request $request)
     {
-        //C2->create
-        $request->validate([
-            // 'picture'=>'null'
-            'img'=>'nullable',
-        ]);
 
-        Blackground::create($request->all());
+
+        if($request->file('img')){
+
+            $file= $request->file('img');
+            $filename= date('YmdHi'). '_' .$file->getClientOriginalName();
+            $file-> move(public_path('blackground'), $filename);
+        }else{
+            $filename=NULL;
+
+        }
+        
+        blackground::create([
+            
+            'img'=>$filename,
+
+        ]);
             
 
         return redirect()->route('adminpage.blackground.adminblackground');
@@ -47,5 +57,11 @@ class BlackgroundController extends Controller
     public function edit()
     {
         return view('/adminpage/blackground/edit');
+    }
+    public function delete($id){
+        $delete = Blackground::find($id);
+        $delete->delete();
+        return redirect()->route('adminpage.blackground.adminblackground');
+
     }
 }

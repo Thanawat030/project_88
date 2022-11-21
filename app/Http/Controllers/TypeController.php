@@ -44,8 +44,21 @@ class TypeController extends Controller
 
         return redirect()->route('adminpage.type.admintype');
     }
-    public function edit()
+    public function edit($id)
     {
-        return view('/adminpage/type/edit');
+        $type_product = Type::find($id);
+        return view('adminpage.type.edit',compact('type_product'));
+    }
+    public function update(Request $request, $id){
+        $update = Type::find($id);
+        $update->name = $request->name;
+        $update->update();
+        return redirect()->route('adminpage.type.admintype');
+    }
+    public function delete($id){
+        $delete = Type::find($id);
+        $delete->delete();
+        return redirect()->route('adminpage.type.admintype');
+
     }
 }

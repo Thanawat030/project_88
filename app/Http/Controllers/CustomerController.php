@@ -46,8 +46,22 @@ class CustomerController extends Controller
 
         return redirect()->route('adminpage.customer.admincustomer');
     }
-    public function edit()
+    public function edit($id)
     {
-        return view('/adminpage/customer/edit');
+        $Customer = Customer::find($id);
+        return view('adminpage.customer.edit',compact('Customer'));
+    }
+    public function update(Request $request, $id){
+        $update = Customer::find($id);
+        $update->name = $request->name;
+        $update->lastname = $request->lastname;
+        $update->update();
+        return redirect()->route('adminpage.customer.admincustomer');
+    }
+    public function delete($id){
+        $delete = Customer::find($id);
+        $delete->delete();
+        return redirect()->route('adminpage.customer.admincustomer');
+
     }
 }
